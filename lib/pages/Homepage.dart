@@ -11,6 +11,7 @@ class Homepage extends StatelessWidget {
       ),
       body: Center(
           child: Container(child: const Text('Welcome to 30 days of Flutter'))),
+      drawer: const Drawer(),
     );
   }
 }
