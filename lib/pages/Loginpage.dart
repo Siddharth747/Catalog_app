@@ -22,7 +22,7 @@ class Loginpage extends StatelessWidget {
             fontSize: 30,
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Padding(
@@ -30,18 +30,18 @@ class Loginpage extends StatelessWidget {
           child: Column(
             children: [
               TextFormField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     hintText: "Enter Username", labelText: "Username"),
               ),
               TextFormField(
                 obscureText: true,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     hintText: "Enter Password", labelText: "Password"),
               ),
             ],
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         ElevatedButton(
